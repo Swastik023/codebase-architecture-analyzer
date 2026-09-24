@@ -8,7 +8,10 @@
 
 ![Archify product preview](docs/assets/archify-readme-hero.png)
 
-# Archify
+# Code Cartographer — AST Visual Architecture Compiler
+
+> A static analysis visual compiler translating TypeScript and Python AST dependency hierarchies into zoomable, interactive SVG architecture blueprints.
+
 
 **Turn a codebase or system description into a polished, interactive system map — directly in chat.**
 
