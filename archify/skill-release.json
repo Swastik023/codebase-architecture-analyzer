@@ -1,10 +1,10 @@
 {
   "schemaVersion": 1,
-  "skillId": "archify",
+  "skillId": "code-cartographer",
   "channel": "development",
   "version": "2.17.0-dev.1",
   "source": {
-    "repository": "https://github.com/tt-a1i/archify"
+    "repository": "https://github.com/tt-a1i/code-cartographer"
   },
-  "updateManifestUrl": "https://tt-a1i.github.io/archify/skill-updates/archify/stable.json"
+  "updateManifestUrl": "https://tt-a1i.github.io/code-cartographer/skill-updates/code-cartographer/stable.json"
 }

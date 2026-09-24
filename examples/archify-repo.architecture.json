@@ -2,9 +2,9 @@
   "schema_version": 1,
   "diagram_type": "architecture",
   "meta": {
-    "title": "Archify",
+    "title": "Code Cartographer",
     "subtitle": "Agent skill → JSON IR → typed renderers → standalone HTML",
-    "output": "examples/archify-repo.html"
+    "output": "examples/code-cartographer-repo.html"
   },
   "components": [
     {
@@ -85,7 +85,7 @@
     {
       "id": "zip",
       "type": "cloud",
-      "label": "archify.zip",
+      "label": "code-cartographer.zip",
       "sublabel": "skill package",
       "pos": [1160, 140],
       "size": [140, 60]
@@ -102,7 +102,7 @@
   "boundaries": [
     {
       "kind": "region",
-      "label": "archify/ skill package",
+      "label": "code-cartographer/ skill package",
       "wraps": ["ir", "schemas", "renderers", "template", "checker"]
     }
   ],

@@ -2,9 +2,9 @@
   "schema_version": 1,
   "diagram_type": "architecture",
   "meta": {
-    "title": "Archify Pipeline",
+    "title": "Code Cartographer Pipeline",
     "subtitle": "Grid placement demo — row/col instead of manual pos",
-    "output": "examples/archify-repo-grid.html"
+    "output": "examples/code-cartographer-repo-grid.html"
   },
   "layout": {
     "mode": "grid",
@@ -29,7 +29,7 @@
   "boundaries": [
     {
       "kind": "region",
-      "label": "archify/ skill package",
+      "label": "code-cartographer/ skill package",
       "wraps": ["ir", "schemas", "renderers", "template", "checker"]
     }
   ],

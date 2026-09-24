@@ -1,12 +1,12 @@
 {
-  "name": "archify",
+  "name": "code-cartographer",
   "version": "2.17.0-dev.1",
   "private": true,
   "type": "module",
   "description": "JSON-IR diagram renderers (architecture / workflow / sequence / dataflow / lifecycle).",
   "license": "MIT",
   "bin": {
-    "archify": "./bin/archify.mjs"
+    "code-cartographer": "./bin/code-cartographer.mjs"
   },
   "engines": {
     "node": ">=18"
