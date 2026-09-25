@@ -8,7 +8,9 @@
 
 ![Code Cartographer product preview](docs/assets/code-cartographer-readme-hero.png)
 
-# Code Cartographer — AST Visual Architecture Compiler
+# Codebase Architecture Visualization & Dependency Analysis Platform
+
+> A static analysis visual compiler parsing AST dependency graphs into interactive, zoomable SVG architecture blueprints.
 
 > A static analysis visual compiler translating TypeScript and Python AST dependency hierarchies into zoomable, interactive SVG architecture blueprints.
 
