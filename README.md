@@ -1,53 +1,31 @@
-<p align="center">
-  <strong>English</strong> · <a href="./README_ZH.md">简体中文</a>
-</p>
+# Codebase Architecture Visualization & Dependency Analysis Platform
 
-<p align="center">
-  <a href="https://trendshift.io/repositories/31352?utm_source=repository-badge&amp;utm_medium=badge&amp;utm_campaign=badge-repository-31352" target="_blank" rel="noopener noreferrer"><img src="https://trendshift.io/api/badge/repositories/31352" alt="Code Cartographer on Trendshift" width="250" height="55"/></a>
-</p>
+> **Engineer:** Swastik Agnihotri  
+> **Contact / Professional Identity:** `Swastik Agnihotri <swastikwork007@gmail.com>`  
+> **GitHub:** [Swastik023/codebase-architecture-analyzer](https://github.com/Swastik023/codebase-architecture-analyzer)  
+> **Focus:** AST Static Analysis · Architecture Blueprints · Interactive SVG Compilers · Visual System Maps  
+
+---
 
 ![Code Cartographer product preview](docs/assets/code-cartographer-readme-hero.png)
 
-# Codebase Architecture Visualization & Dependency Analysis Platform
+## Overview
 
-> A static analysis visual compiler parsing AST dependency graphs into interactive, zoomable SVG architecture blueprints.
+**Turn any codebase, microservice topology, or system architecture into a polished, interactive system map.**
 
-> A static analysis visual compiler translating TypeScript and Python AST dependency hierarchies into zoomable, interactive SVG architecture blueprints.
+Codebase Architecture Analyzer is an AST static analysis compiler that translates TypeScript, Python, and system dependency hierarchies into zoomable, interactive SVG blueprints and animated architecture diagrams.
 
-
-**Turn a codebase or system description into a polished, interactive system map — directly in chat.**
-
-Code Cartographer is a Node.js rendering and validation system for Cursor, Claude Code, Codex CLI, and OpenCode. Agents produce typed JSON IR; Code Cartographer deterministically compiles it into HTML/SVG.
-
-- **Open it and present** — five diagram types, four presets, dark/light themes, built-in brand marks, and finite motion
-- **Review architecture changes before merge** — compare two validated snapshots as Before / Delta / After, with exact added, removed, changed, moved, and rerouted facts
-- **Every interaction stays grounded** — search nodes, optionally open revision-verified source, trace upstream/downstream authored reach and exact routes, compare roles, and play guided stories without inventing topology
-- **One file, ready to trust and share** — typed JSON IR and deterministic checks produce self-contained HTML plus PNG, SVG, WebM, and 1200×630 share cards
+- **Five Visual Diagram & Flow Types:** Architecture topologies, dataflow pipelines, sequence timelines, workflow state machines, and lifecycle state transitions.
+- **Four Aesthetic Presets:** Signal Flow (with animated edge pulses), Blueprint (technical CAD grid), Classic, and Editorial.
+- **Dual Theme Support:** High-contrast Dark and Light themes with interactive node search and upstream/downstream reach tracing.
+- **Export Ready:** Deterministically compiles typed JSON IR into self-contained HTML viewers, zoomable SVGs, WebM animations, and 1200×630 share cards.
 
 ![License](https://img.shields.io/badge/license-MIT-22c55e?style=flat-square)
-![Agent Skill](https://img.shields.io/badge/Agent-Skill-7C3AED?style=flat-square)
-![Development Version](https://img.shields.io/badge/version-2.17.0--dev.1-0891b2?style=flat-square)
+![TypeScript](https://img.shields.io/badge/TypeScript-Strict-3178C6?style=flat-square&logo=typescript&logoColor=white)
+![AST Engine](https://img.shields.io/badge/Engine-Babel_AST-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
+![Architecture](https://img.shields.io/badge/Output-Interactive_SVG-FF6F00?style=flat-square)
 
-**Current development version:** `v2.17.0-dev.1`. See [Changelog](CHANGELOG.md#unreleased).
-
-**[Project page](https://tt-a1i.github.io/code-cartographer/)** · **[Scenario guide](https://tt-a1i.github.io/code-cartographer/guide.html)** · **[Proof Lab](https://tt-a1i.github.io/code-cartographer/gallery.html)**
-
-```bash
-npx skills add tt-a1i/code-cartographer -g
-```
-
-Using Cursor? Open the [agent-aware quick start](https://tt-a1i.github.io/code-cartographer/start.html?agent=cursor&type=architecture) for exact global and project commands.
-
-**No repository is required:** describe the system in any agent chat.
-
-## ❤️ Sponsors
-
-<table>
-  <tr><td align="center" width="240"><a href="https://apinebula.ai/ref/wywnaATT"><img src="docs/assets/sponsors/apinebula-code-cartographer.jpg" alt="APINEBULA" width="200" /></a><br/><strong><a href="https://apinebula.ai/ref/wywnaATT">APINEBULA</a></strong></td><td>APINEBULA sponsors Code Cartographer with one API for Claude, GPT, Gemini, and more. <a href="https://apinebula.ai/ref/wywnaATT">Register through Code Cartographer</a> and use <strong><code>Code Cartographer</code></strong> for <strong>10% off</strong>.</td></tr>
-  <tr><td align="center" width="240"><a href="https://github.com/EverMind-AI/Raven"><img src="docs/assets/sponsors/evermind-code-cartographer-raven.png" alt="Code Cartographer × Raven" width="200" /></a><br/><strong><a href="https://github.com/EverMind-AI">EverMind</a> · <a href="https://github.com/EverMind-AI/Raven">Raven</a></strong></td><td>EverMind sponsors Code Cartographer and builds memory infrastructure for agents. Its <a href="https://github.com/EverMind-AI/Raven"><strong>Raven</strong></a> harness supports Code Cartographer as a Skill for verified, interactive system maps.</td></tr>
-</table>
-
-> Want to sponsor Code Cartographer? [Contact us by email.](mailto:2801884530@qq.com)
+---
 
 ## See Code Cartographer in action
 
